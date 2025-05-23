@@ -17,6 +17,15 @@ const Create = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    if (!formData.title || !formData.author || !formData.body) {
+      toast.error('Please fill in all fields before submitting', {
+        position: "top-right",
+        autoClose: 3000
+      });
+      return;
+    }
+
+
     axios.post('http://localhost:4000/blogs', formData)
       .then(res => {
         toast.success('New blog added successfully', {
@@ -30,7 +39,7 @@ const Create = () => {
           position: "top-right",
           autoClose: 3000,
         });
-      });
+      });   
   };
 
   return (
