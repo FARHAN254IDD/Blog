@@ -44,6 +44,7 @@ const Create = () => {
 
   return (
     <div>
+        <h2 className="mb-4 text-center">Create New Blog</h2>
       <Form onSubmit={handleSubmit}>
         <Form.Group className="mb-3">
           <Form.Label>Title</Form.Label>
