@@ -1,94 +1,16 @@
 {
   "blogs": [
     {
-      "tittle": "Web Development",
-      "author": "Samson",
-      "body": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
-      "id": "6"
+      "id": "2472",
+      "title": "CSS",
+      "author": "FARHAN",
+      "body": "Styling"
     },
     {
-      "title": "Java Programing",
-      "author": "Mary",
-      "body": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.",
-      "id": "7"
-    },
-    {
-      "title": "Html",
-      "author": "Doe",
-      "body": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.",
-      "id": "7"
-    },
-    {
-      "title": "PHP",
-      "author": "Fara",
-      "body": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.",
-      "id": "7"
-    },
-    {
-      "id": "a466",
-      "title": "fyfyifirurojr",
-      "author": "deewssr",
-      "body": "cewcwec"
-    },
-    {
-      "id": "a392",
-      "title": "f84fknrhir",
-      "author": "fr9fifrjojorfn",
-      "body": "rfoflrfkrpffr"
-    },
-    {
-      "id": "9ed0",
-      "title": "React",
+      "id": "221f",
+      "title": "HTML",
       "author": "IDD",
-      "body": "Creating Application"
-    },
-    {
-      "id": "eb19",
-      "title": "Java",
-      "author": "Jamal",
-      "body": "Creating apps"
-    },
-    {
-      "id": "aa89",
-      "title": "PHP",
-      "author": "Fara",
-      "body": "Software"
-    },
-    {
-      "id": "0d52",
-      "title": "php",
-      "author": "IDD",
-      "body": "programing"
-    },
-    {
-      "id": "3e72",
-      "title": "Git",
-      "author": "Adan",
-      "body": "Tracking Changes"
-    },
-    {
-      "id": "d410",
-      "title": "DATABASE",
-      "author": "Omar",
-      "body": "Backend"
-    },
-    {
-      "id": "2838",
-      "title": "",
-      "author": "",
-      "body": ""
-    },
-    {
-      "id": "fac5",
-      "title": "",
-      "author": "",
-      "body": ""
-    },
-    {
-      "id": "fde2",
-      "title": "Vue.js",
-      "author": "Hashim",
-      "body": "App"
+      "body": "Structure"
     }
   ]
 }

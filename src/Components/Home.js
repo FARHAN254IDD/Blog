@@ -1,12 +1,15 @@
-import { Link } from "react-router-dom";
-import React from 'react';
+import BlogList from "./BlogList";
+import useFetch from  "./UseFetch";
 
 const Home = () => {
+     const {data}=useFetch('http://localhost:4000/blogs');
     return (
+       
         <div className="Home">
-            <h2>Welcome to the Blog</h2>
+            
+           {data && <BlogList blogs={data} title="All blogs"/>}
         </div>
-    )
+    );
 }
 
 export default Home;
