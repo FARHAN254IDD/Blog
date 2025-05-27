@@ -6,6 +6,7 @@ import Create from './Components/Create';
 import NotFound from './Components/NotFound';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import BlogDetails from './Components/BlogDetails';
 
 
 function App() {
@@ -23,9 +24,9 @@ function App() {
             <Create/>
             </Route>
 
-            {/* <Route path="/Blog-details/:id">
+            <Route path="/BlogDetails/:id">
             <BlogDetails/>
-            </Route> */}
+            </Route>
 
             <Route path="*">
               <NotFound/>
